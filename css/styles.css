@@ -655,6 +655,7 @@ img {
 
 .container-footer {
         display: flex;
+        justify-content: center;
         align-items: baseline;
 }
 
@@ -809,6 +810,7 @@ img {
         
                 /* identical to box height, or 150% */
         display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
@@ -822,4 +824,8 @@ img {
 
 .icon-btn-footer {
         margin-left: 16px;
+}
+
+.form-footer-div {
+        margin-left: auto;
 }
