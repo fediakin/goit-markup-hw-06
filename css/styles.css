@@ -847,11 +847,6 @@ img {
         margin-bottom: 16px;
 }
 
-.contact-form-wrapper-comment {
-        display: block;
-        margin-bottom: 16px;
-}
-
 .contact-form-checkbox-wrapper {
         font-size: 12px;
         line-height: 1.17;
@@ -974,7 +969,7 @@ img {
         fill: transparent;
 }
 
-.contact-form-checkbox:checked + .modal-form-checkbox {
+.contact-form-checkbox:checked .modal-form-checkbox {
         background-color: var(--hf-buttons-color);
         border: none;
         fill: var(--our-white-color);
