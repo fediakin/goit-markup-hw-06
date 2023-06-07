@@ -972,7 +972,7 @@ img {
         fill: transparent;
 }
 
-.contact-form-checkbox:checked + .modal-form-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper .modal-form-checkbox {
         background-color: var(--hf-buttons-color);
         border: none;
         fill: var(--our-white-color);
